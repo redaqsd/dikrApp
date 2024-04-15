@@ -1,0 +1,62 @@
+.home {
+    width: 80%;
+    float: right;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 50px;
+    float: right;
+}
+
+.morning  , .sleep , .night , .salat {
+    color: #646cff;
+    font-size: 30px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 250px 50px;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+}
+
+p{
+    float: right;
+}
+
+@media only screen and (max-width: 380px) {
+
+    .morning  , .sleep , .night , .salat {
+        font-size: 20px;
+        grid-template-columns: 250px 30px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 250px) {
+
+    .morning  , .sleep , .night , .salat {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+}

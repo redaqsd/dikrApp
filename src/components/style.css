@@ -1,0 +1,87 @@
+.Div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.Nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    
+}
+
+.singleDikr{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.contollers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.arrow{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.doneDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.exit2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 430px) {
+    .singleDikr{
+        font-size: 25px;
+        line-height: 1.4;
+    }
+}
+
+
+@media only screen and (max-width: 250px) {
+    .singleDikr{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
